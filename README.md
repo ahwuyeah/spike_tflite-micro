@@ -18,3 +18,7 @@ Notice:
 3. After rebuild riscv-toolchain, you could `make` your project.
 3. If you make successfully, you might find binary file in `riscv/bin/`
 4. If you want to simulate your binary file in Spike, run command in the root of `spike_tflite-micro` => `spike pk riscv/bin/{YOUR_PROJ_NAME}`
+
+##Reference
+1. [我把 ncnn 移植到 RISC-V 啦！](https://zhuanlan.zhihu.com/p/160249065)
+2. [Gemmini_bareMetal_makefile](https://github.com/ucb-bar/gemmini-rocc-tests/blob/e326e7c43457ff08669fe88edcaa395d846474d8/bareMetalC/Makefile)
