@@ -20,7 +20,7 @@ Notice:
 4. If you want to simulate your binary file in Spike, run command in the root of `spike_tflite-micro` => `spike pk riscv/bin/{YOUR_PROJ_NAME}`
 
 ## Another Method
-put file [spike_riscv64_makefile.inc](https://github.com/ahwuyeah/spike_tflite-micro/blob/main/tensorflow/lite/micro/tools/make/targets/spike_riscv64_makefile.inc) to your tflite-micro folder `tensorflow/lite/micro/tools/make/target/`.
+put file [spike_riscv64_makefile.inc](https://github.com/ahwuyeah/spike_tflite-micro/blob/main/tensorflow/lite/micro/tools/make/targets/spike_riscv64_makefile.inc) to your tflite-micro folder `tensorflow/lite/micro/tools/make/targets/`.
 Makefile as following
 ```
 make -f tensorflow/lite/micro/tools/make/Makefile TARGET=spike_riscv64 TARGET_ARCH=spike_riscv64
